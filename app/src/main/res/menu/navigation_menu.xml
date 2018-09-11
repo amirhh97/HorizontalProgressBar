@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+    <item
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="search"
+        app:showAsAction="ifRoom"
+        tools:ignore="NewApi" />
+    <item
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="delete"
+        app:showAsAction="ifRoom" />
+    </group>
+
+</menu>
